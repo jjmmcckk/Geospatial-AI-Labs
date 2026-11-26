@@ -10,7 +10,7 @@ test discipline.
 
 ## Fixes made to the original notebook
 - The Space2Vec repository was cloned after it was imported; the notebook now installs
-  dependencies first and includes a built in encoder so it always runs.
+  dependencies first and includes a built in implementation of the encoder.
 - The model's input size ignored the location embedding; it now adds the embedding size.
 - The Optuna objective returned an undefined `validation_score` without training anything.
   It now builds, trains and scores a model on a validation set for every trial.
