@@ -1,0 +1,10 @@
+*.zip
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.csv
+UCMerced_LandUse/
+space2vec_demo/
+.ipynb_checkpoints/
