@@ -1,5 +1,7 @@
 # Lab 3: LSTM Precipitation Forecasting
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jjmmcckk/Geospatial-AI-Labs/blob/main/lab3-lstm-precipitation-forecasting/lab3_lstm_precipitation.ipynb)
+
 Forecasts next month precipitation at Honolulu Airport, Hawaii (NOAA NCEI, 1940 to 2024)
 from the previous 12 months with a stacked LSTM in PyTorch, and compares it with seasonal
 and naive baselines.

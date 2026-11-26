@@ -1,5 +1,7 @@
 # Lab 2: Aerial Image Land Use Classification
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jjmmcckk/Geospatial-AI-Labs/blob/main/lab2-aerial-image-classification/lab2_aerial_image_classification.ipynb)
+
 Classifies UC Merced aerial orthoimagery (21 land use classes, 2,100 tiles) with
 PyTorch, comparing a small CNN trained from scratch against transfer learning from an
 ImageNet pretrained Inception v3.

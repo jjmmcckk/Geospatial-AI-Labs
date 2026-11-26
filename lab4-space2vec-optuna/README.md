@@ -1,5 +1,7 @@
 # Lab 4: Location Encoding with Space2Vec and Optuna
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jjmmcckk/Geospatial-AI-Labs/blob/main/lab4-space2vec-optuna/lab4_space2vec_optuna.ipynb)
+
 Encodes coordinates with a multi scale Space2Vec style location encoder, combines the
 embedding with tabular features in a PyTorch network, and tunes the encoder and network
 with Optuna.

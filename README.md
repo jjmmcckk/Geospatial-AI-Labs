@@ -11,7 +11,8 @@ and documented. Each folder has a runnable notebook and a README with results.
 | [Lab 4](lab4-space2vec-optuna) | Space2Vec location encoding with Optuna tuning | PyTorch, Optuna, GeoPandas | Encoder cuts test RMSE 20% vs raw coordinates |
 
 All notebooks run in Google Colab and are committed with their outputs from a full run
-on the course data. Datasets are not included in this repository; each README
+on the course data. Each lab's README has an **Open in Colab** button, and
+`requirements.txt` lists the package versions the outputs were produced with. Datasets are not included in this repository; each README
 explains where to get them.
 
 **Author:** Jordan McKenzie, Transport Canada Advanced RPAS Pilot and Flight Reviewer,

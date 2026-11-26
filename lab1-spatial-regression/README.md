@@ -1,5 +1,7 @@
 # Lab 1: Spatial Deep Learning Regression
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jjmmcckk/Geospatial-AI-Labs/blob/main/lab1-spatial-regression/lab1_spatial_regression.ipynb)
+
 Predicts median house value for California census blocks with a 3 layer neural network,
 built from a point shapefile.
 

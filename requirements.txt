@@ -1,0 +1,11 @@
+# Versions the committed notebook outputs were produced with (Python 3.12, CPU).
+# Google Colab already includes most of these; Labs 1 and 4 need geopandas, Lab 4 needs optuna.
+numpy==2.5.3
+pandas==3.0.5
+matplotlib==3.11.2
+scikit-learn==1.9.1
+geopandas==1.2.0
+tensorflow==2.21.0
+torch==2.15.0
+torchvision==0.29.2
+optuna==5.1.0
