@@ -15,5 +15,8 @@ on the course data. Each lab's README has an **Open in Colab** button, and
 `requirements.txt` lists the package versions the outputs were produced with. Datasets are not included in this repository; each README
 explains where to get them.
 
+**More projects:** [LiDAR QA Toolkit](https://github.com/jjmmcckk/lidar-qa-toolkit) ·
+[LiDAR Web Map](https://github.com/jjmmcckk/lidar-web-map)
+
 **Author:** Jordan McKenzie, Transport Canada Advanced RPAS Pilot and Flight Reviewer,
 B.Sc. Computer Science, geospatial and drone data work since 2019.
