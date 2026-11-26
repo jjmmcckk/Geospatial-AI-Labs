@@ -23,7 +23,4 @@ Open in Google Colab, set the runtime to GPU, and run all cells. The first cell 
 the dataset.
 
 ## Results
-| Model | Test accuracy |
-|---|---|
-| Simple CNN | _fill in_ |
-| Inception v3 (transfer learning) | _fill in_ |
+Pending: results will be added after the GPU run.

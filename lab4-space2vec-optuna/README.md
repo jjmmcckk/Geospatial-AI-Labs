@@ -22,6 +22,11 @@ Open in Google Colab, upload the California housing shapefile from Lab 1, and ru
 cells. A GPU speeds up the search.
 
 ## Results
-- Best validation RMSE: _fill in_
-- Test RMSE with tuned parameters: _fill in_
-- Best parameters: _fill in_
+30 Optuna trials, each trained and scored on a validation set; the best setup was then
+retrained and scored once on the held out test set.
+
+- Best validation RMSE: **$40,479**
+- **Test RMSE with tuned parameters: $41,101**, about 14% lower than the plain network in
+  Lab 1 ($47,609) on the same 3,715 test blocks
+- Best parameters: embedding size 64, 16 frequencies, min radius 0.0019, 2 hidden layers
+  of 64 units, dropout 0.12, learning rate 0.00072
