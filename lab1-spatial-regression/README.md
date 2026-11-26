@@ -21,7 +21,14 @@ Open in Google Colab, upload `california_housing.shp` with its `.shx`, `.dbf` an
 files, and run all cells.
 
 ## Results
-- **Test RMSE: $47,609** on 3,715 held out census blocks (80/20 split of the 18,572 blocks
-  left after removing capped age and value records).
-- Early stopping ended training after 73 epochs. The loss curve and the predicted vs true
-  plot are in the notebook outputs.
+Scored on 3,715 held out census blocks (80/20 split of the 18,572 blocks left after
+removing capped age and value records), against a linear regression baseline trained on
+the same features and split.
+
+| Model | Test RMSE | R² |
+|---|---|---|
+| **3 layer neural network** | **$47,915** | **0.759** |
+| Linear regression baseline | $59,820 | 0.624 |
+
+The neural network lowers RMSE by 20% over the baseline. Early stopping ended training
+after 56 epochs; the loss curve and the predicted vs true plot are in the notebook.
